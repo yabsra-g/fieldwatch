@@ -120,8 +120,10 @@ agronomist.
 
 ## Team
 
-- [Name] — [role]
-- [Name] — [role]
+- Yabsra
+- Jordan
+- Geleta
+- Amir
 
 ## Built at
 
