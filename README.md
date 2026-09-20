@@ -127,4 +127,4 @@ agronomist.
 
 ## Built at
 
-JetBrains Kotlin Multiplatform Challenge, [event name], September 2026.
+JetBrains Kotlin Multiplatform Challenge, JetBrains X NYUAD Hackathon, September 2026.
