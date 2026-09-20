@@ -1,0 +1,6 @@
+{
+  "name": "FieldWatch",
+  "description": "Digital disease surveillance and outbreak detection platform for agriculture and livestock with offline sync, symptom differential diagnosis, and geospatial clustering.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

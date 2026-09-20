@@ -1,0 +1,170 @@
+{
+  "configMetadata": {
+    "initialized": true,
+    "publishableKey": "sb_publishable_o4KdoICsdhriydky5k7ABA_Meymmvzg",
+    "secretKeyHash": "6edde4e25b86c936dcd8478ae0d7638b83e48bc0bdcd29ff3f3bc2cf22bfc48b"
+  },
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Dr. Kariuki (Chief Veterinary Officer)",
+      "phone": "+254 700 000 001",
+      "email": "admin@fieldwatch.org",
+      "district": "Regional Surveillance HQ",
+      "village": "District Center",
+      "role": "admin",
+      "status": "approved",
+      "passwordHash": "04aeff6f69c03c78284ca15ab766caa9d91aeecd22c1e4681a38d4c619be6072",
+      "salt": "feb4d2d9cbc0385d9d3c7bb994657205",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr_farmer_01",
+      "name": "Ezekiel Kiprono",
+      "phone": "+254 712 884 102",
+      "email": "ezekiel@farm.co.ke",
+      "district": "Kajiado North",
+      "village": "Oloolua Ridge",
+      "role": "farmer",
+      "status": "approved",
+      "passwordHash": "c9c89e3e71371e78df71c6eb5583d4957b061ea2e67d83e1c56500a10ccba7e4",
+      "salt": "3ab321b59be1a0ecd3e24003b2ddbe88",
+      "createdAt": "2026-02-10T08:00:00.000Z",
+      "approvedAt": "2026-02-10T09:30:00.000Z",
+      "approvedBy": "Dr. Kariuki"
+    },
+    {
+      "id": "usr_farmer_02",
+      "name": "Beatrice Atieno",
+      "phone": "+254 733 912 840",
+      "email": "beatrice@lakefarms.org",
+      "district": "Nakuru South",
+      "village": "Njoro Smallholdings",
+      "role": "farmer",
+      "status": "pending",
+      "passwordHash": "255cad7634009ba5ea5e3cd2e359bab01edaaa0a5a23b9f17e198998e09e168e",
+      "salt": "588349f47f51d4509d0d476c4ea28ae8",
+      "createdAt": "2026-09-20T11:36:05.824Z"
+    },
+    {
+      "id": "usr_1789903704893_b0qm9",
+      "name": "Geleta",
+      "phone": "090983838",
+      "district": "Kajiado North",
+      "village": "snsjkd",
+      "role": "farmer",
+      "status": "approved",
+      "passwordHash": "23b5829b3028a705e7dea0df041f7d34af1b9337ddc9f1fb6c283a99bf0606c2",
+      "salt": "ec0bfe4c6bd85ce776246e1f8e7849ce",
+      "createdAt": "2026-09-20T11:37:40.265Z",
+      "approvedAt": "2026-09-20T11:41:37.955Z",
+      "approvedBy": "Dr. Kariuki (Chief Veterinary Officer)"
+    },
+    {
+      "id": "usr_1789899264129_qoiya",
+      "name": "Amir",
+      "phone": "090893",
+      "district": "Nakuru South",
+      "village": "fjfnmdx",
+      "role": "farmer",
+      "status": "approved",
+      "passwordHash": "0da5b5b9d6f869d66f4c0bae664a91cd239eb1033d59441f61d08dcb9499cf0a",
+      "salt": "f6ac29963c24f69461c3a5d5a25dc8b8",
+      "createdAt": "2026-09-20T11:37:40.266Z",
+      "approvedAt": "2026-09-20T10:14:40.673Z",
+      "approvedBy": "Dr. Kariuki (Chief Veterinary Officer)"
+    },
+    {
+      "id": "usr_1789899167979_p807t",
+      "name": "Diagnostic Farmer Test",
+      "phone": "+254799000111",
+      "district": "Kajiado Central",
+      "village": "Enkorika",
+      "role": "farmer",
+      "status": "pending",
+      "passwordHash": "d664d7b62a8ed10584d3a54e58a1d659fdd665524f0bf6a3bf22458234a05d8b",
+      "salt": "66e849fe6e03a14b00d087918685917c",
+      "createdAt": "2026-09-20T11:37:40.266Z"
+    },
+    {
+      "id": "usr_1789904345318_il7zb",
+      "name": "Zz UI Probe",
+      "phone": "+254 7104344703",
+      "district": "Kajiado North",
+      "village": "Probeville",
+      "role": "farmer",
+      "status": "pending",
+      "passwordHash": "a2f0a9a5225ce26346fd57874ae7ce30c9997650a8300a84b1a5e8dfa84dfd9e",
+      "salt": "b80ce2f1da464901e34d9563cad5b996",
+      "createdAt": "2026-09-20T11:39:32.050Z"
+    },
+    {
+      "id": "usr_1789904476720_1r41d",
+      "name": "Geleta",
+      "phone": "9585844",
+      "district": "Kajiado North",
+      "village": "44848844",
+      "role": "farmer",
+      "status": "pending",
+      "passwordHash": "cfb3792898e86bdac055f49646e5444ad8e05a11e13a470469a6b456baabfb9d",
+      "salt": "8f8a18f17fa6e7c36d0830c4448facd3",
+      "createdAt": "2026-09-20T11:41:16.720Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "fw_3bde13cc18c262ab62fbdc063835a587c7a9538c2bf94a9d",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789904604072
+    },
+    {
+      "token": "fw_4c94d7d90c7174c9ed147dd8a4dba06fbba025fd721967bc",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789904639071
+    },
+    {
+      "token": "fw_06ef12effeae283ab72d081864353c29840d6d13c338b3f9",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789905308776
+    },
+    {
+      "token": "fw_a4088c7a69334de4389241a1225e2453c3430855360dc228",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789905357645
+    },
+    {
+      "token": "fw_92dae7b9e3a2d7ec0f47dd046f7aee2cff7d10587c5b97b2",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789905372862
+    },
+    {
+      "token": "fw_18b50c437fdf7a05511b9ee81f73f820d154da2b6027af44",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789905433462
+    },
+    {
+      "token": "fw_31be70a6566959c712d6b6d495d7f4f850cbc12f667359c9",
+      "userId": "usr_admin_01",
+      "role": "admin",
+      "createdAt": 1789905983135
+    },
+    {
+      "token": "fw_db97869a97be3f72ebc11d2d75bbb94f6e3abe593389beb1",
+      "userId": "usr_admin_01",
+      "role": "admin",
+      "createdAt": 1789906024363
+    },
+    {
+      "token": "fw_db252a3ec51700dbdba4563ba1bfcfcd43157331ffbc931e",
+      "userId": "usr_farmer_01",
+      "role": "farmer",
+      "createdAt": 1789906233178
+    }
+  ]
+}

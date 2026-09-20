@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* The app is light-only; keep Tailwind Elements' dark: styles from following the OS theme */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Let Tailwind generate the utility classes used by Tailwind Elements (ripple, modal) */
+@source "../node_modules/tw-elements-react/dist/js/tw-elements-react.es.min.js";
+
+@keyframes fw-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fw-fade-up {
+  animation: fw-fade-up 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fw-fade-up {
+    animation: none;
+  }
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #fbfbfb;
+    color: #1c1917;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.map-grid-bg {
+  background-color: #f8fafc;
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.design-canvas-border {
+  border-left: 1px dashed #e2e8f0;
+  border-right: 1px dashed #e2e8f0;
+}
